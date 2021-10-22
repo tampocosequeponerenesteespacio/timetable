@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import Timetable from "./components/Timetable"
 import allTeachers from "./helpers/teachers"
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch, Route, Link
 } from "react-router-dom"
 import whatPeriod from "./helpers/period"
