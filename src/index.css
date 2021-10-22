@@ -1,0 +1,63 @@
+.maindiv {
+    
+    overflow-x: auto;
+    margin: 10px 25px 10px 25px;
+    
+    
+}
+
+ table {    
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 100%;
+    
+    
+  }
+  
+  td {
+    overflow: hidden;
+    white-space: pre;
+    text-align: center;
+    border: 1px solid navy;
+    padding: 16px;
+    width: 90px;
+  }
+
+.highlight {
+    background-color: lightgray;
+    
+}
+  
+  
+  
+
+.menuButton {
+  
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;  
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;    
+}
+
+
+
+.bio {
+    background-color: limegreen;
+}
+
+.phy {
+    background-color: purple;
+}
+
+.chem {
+    background-color: skyblue;
+}
+
+.sci {
+    background-color: orange;
+}
