@@ -1,49 +1,76 @@
-.maindiv {
-    
+body {
+  background-color: #121212;
+}
+
+.maindiv {    
     overflow-x: auto;
-    margin: 10px 25px 10px 25px;
+    margin: 5px 25px 5px 25px;    
     
-    
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px;  
+  opacity: 100%;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+  margin-bottom: 2px;
+  
+}
+
+#time {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  color: rgba(255, 255, 255, 0.50);
+  padding: 20px;
 }
 
  table {    
     border-collapse: separate;
     table-layout: fixed;
     width: 100%;
-    
-    
+
   }
   
   td {
     overflow: hidden;
     white-space: pre;
     text-align: center;
-    border: 1px solid navy;
-    padding: 16px;
-    width: 90px;
+    padding: 1vw;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: #1d1d1d;
+    border: none;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.65);
+    
   }
 
 .highlight {
-    background-color: lightgray;
-    
-}
-  
-  
+    background-color: #242427;
+    color: rgba(255, 255, 255, 0.85);    
+} 
   
 
-.menuButton {
-  
-  border-radius: 5px;
+.menuButton {  
+  border-radius: 8px;
   border: none;
-  color: white;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 0px 4px black;
   padding: 12px 24px;
   text-align: center;  
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  font-size: 1.2rem;
+  font-weight: 600;  
+  transition-duration: 120ms;
   cursor: pointer;    
 }
 
+.menuButton:hover {
+  transform: scale(1.1);
+}
 
 
 .bio {
@@ -60,4 +87,38 @@
 
 .sci {
     background-color: orange;
+}
+
+@media (max-width: 900px) {
+  * {
+    font-size: 12px;
+  }
+
+  .maindiv {
+    margin: 0px;
+  }
+
+ #timetable {
+   overflow-x: auto;
+   min-width: 640px;
+ }
+
+ #time {
+   padding: 0px;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+
+  .menuButton {
+    padding: 2px 3px;
+    font-size: 12px;
+  }
+
+  #header {
+    padding: 2px;
+  }
+
+  td {
+    padding: 1px;
+  }
 }

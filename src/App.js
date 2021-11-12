@@ -53,7 +53,7 @@ function App() {
 
       <div id='time'>
         <h1>Period: {whatPeriod(date)}</h1>
-        <h1>{date.toLocaleTimeString()}</h1>
+        <h2>{date.toLocaleTimeString()}</h2>
       </div>
     </div>
     
