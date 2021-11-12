@@ -27,13 +27,14 @@ function App() {
   return (
     <div className='maindiv'>
       <Router>
-      <div style={{marginBottom: '20px'}}>
+      <div id='header' >
         <Link style={padding} to="/"><button className='menuButton sci'>SCIENCE</button></Link>
         <Link style={padding} to="/phy"><button className='menuButton phy'>PHYSICS</button></Link>
         <Link style={padding} to="/chem"><button className='menuButton chem'>CHEMISTRY</button></Link>
         <Link style={padding} to="/bio"><button className='menuButton bio'>BIOLOGY</button></Link>
       </div>
 
+      
       <Switch>
       <Route path="/phy">
           <Timetable date={date} teachers={allTeachers.PHY} />
@@ -49,10 +50,10 @@ function App() {
         </Route>
       </Switch>
       </Router>
-      <div>
+
+      <div id='time'>
         <h1>Period: {whatPeriod(date)}</h1>
         <h1>{date.toLocaleTimeString()}</h1>
-
       </div>
     </div>
     

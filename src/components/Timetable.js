@@ -22,6 +22,7 @@ const Timetable = ({date, teachers}) => {
     
     
     return(
+      <div id='timetable'>
         <table >
             <tbody>
                 <tr key='header'>
@@ -37,6 +38,8 @@ const Timetable = ({date, teachers}) => {
                 })}
             </tbody>
         </table>
+
+      </div>
         
     )
 
