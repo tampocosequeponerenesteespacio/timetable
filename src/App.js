@@ -23,7 +23,7 @@ function App() {
     padding: 5
   }  
 
-
+  
   return (
     <div className='maindiv'>
       <Router>

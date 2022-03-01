@@ -1,35 +1,26 @@
 
 
-const TT = `" LPI
-21";"
+const TT = ` LPI;"
 
 ";"
 
 ";"
 
-";"4m
-Biólogos
-C17";"1F
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"1E
 CHEM
-G23";;;;"
-
-";"
-
-";"
-
-";"
-
-";"4m
-Químicos
-C17";"4m
-Químicos
-C17";;"1F
+F22";"1E
 CHEM
-G23";"1F
-CHEM
-G23";"4m
-Biólogos
-C17";"
+F22";"
 
 ";"
 
@@ -38,74 +29,14 @@ C17";"
 ";"
 
 ";"
-
-";;"7C
-CHEM
-A21";"7C
-CHEM
-A21";;"
-
-";"4m
-Biólogos
-C17";"4m
-Biólogos
-C17";"
-
-";"
-
-";"
-
-";"
-
-";"7D
-CHEM
-A22";"7D
-CHEM
-A22";"
-
-";"4m
-Químicos
-C17";"4m
-Químicos
-C17";"
-
-";;"
-
-";"4m
-Físicos 1
-C17";"4m
-Físicos 1
-C17";"
 
 ";"
 
 ";"7F
 CHEM
-A24";"7F
+F22";"7F
 CHEM
-A24";"4m
-Físicos 1
-C17";"4m
-Físicos 1
-C17";;;"
-
-";"
-
-";"
-
-";
-" EVA
-21";"1E
-TUT
-H22";"1E
-CHEM
-H22";"1E
-CHEM
-H22";"
-
-";;;"8E
-CHEM
-A13";"
+F22";"
 
 ";"
 
@@ -113,63 +44,65 @@ A13";"
 
 ";"
 
-";"1E
-TUT
-H22";"7E
-CHEM
-A23";"7E
-CHEM
-A23";"1E
-CHEM
-H22";"8A
-CHEM
-A17";"7B
-CHEM
-A26";"7B
-CHEM
-A26";;"1E
-TUT
-H22";"
-
 ";"
 
-";"1E
-TUT
-H22";"8F
-CHEM
-A14";"8F
-CHEM
-A14";;"8E
-CHEM
-A13";"8E
-CHEM
-A13";;;"
+";"
 
 ";"
 
 ";"
 
-";"1E
-TUT
-H22";"8A
-CHEM
-A17";"8A
-CHEM
-A17";"
+";"
 
-";;;;;"
+";"
+
+";"
+
+";"
+
+";"
+
+";"7D
+CHEM
+F22";"7D
+CHEM
+F22";"
+
+";"8B
+CHEM
+F22";"8B
+CHEM
+F22";"1E
+CHEM
+F22";"7C
+CHEM
+F22";"7C
+CHEM
+F22";"1C
+CHEM
+F22";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
 
 ";"1C
 CHEM
-H21";"1C
+F22";"1C
 CHEM
-H21";"1E
-TUT
-H22";"1C
-CHEM
-H21";;"8F
-CHEM
-A14";"
+F22";"
 
 ";"
 
@@ -177,101 +110,8 @@ A14";"
 
 ";"
 
-";"7A
-CHEM
-A25";"7A
-CHEM
-A25";"
-
-";
-" RAG
-26";"1B
-TUT
-G21";"3m A2
-1CHEM
-F21";"3m A2
-1CHEM
-F21";"
-
-";C;;"8D
-CHEM
-A12";"
-
-";"1B
-CHEM
-G21";"
-
-";"
-
-";"1B
-TUT
-G21";"3m A2
-1CHEM
-F21";"3m A2
-1CHEM
-F21";"2m A2
-1CHEM
-F21";"2m A2
-1CHEM
-F21";"1A
-CHEM
-G24";"1A
-CHEM
-G24";;"1B
-TUT
-G21";"
-
-";"
-
-";"1B
-TUT
-G21";"8D
-CHEM
-A12";"8D
-CHEM
-A12";"3m A2
-1CHEM
-F21";"2m A2
-1CHEM
-F21";"2m A2
-1CHEM
-F21";;;"
-
-";;"
-
-";"1B
-TUT
-G21";"8B
-CHEM
-A16";"8B
-CHEM
-A16";"
-
-";"2m A2
-1CHEM
-F21";"2m A2
-1CHEM
-F21";"3m A2
-1CHEM
-F21";"3m A2
-1CHEM
-F21";"
-
-";"1B
-CHEM
-G21";"1B
-CHEM
-G21";"1B
-TUT
-G21";"8B
-CHEM
-A16";;"2m A2
-1CHEM
-F21";C;"
-
-";"1A
-CHEM
-G24";"
+"
+ ;EVA;"
 
 ";"
 
@@ -279,799 +119,1186 @@ G24";"
 
 ";"
 
-";
-" XMU
-26";"1D
-TUT
-G22";;"
-
-";;"3F
-SCI
-C13";"3F
-SCI
-C13";"2ABC set2
-SCI
-G12";"2ABC set2
-SCI
-G12";"
-
 ";"
 
-";"
-
-";"1D
-TUT
-G22";;;;"1D
+";"7B
 CHEM
-G22";"1D
+F22";"7B
 CHEM
-G22";C;;"1D
-TUT
-G22";"3C
-SCI
-H12";"3C
-SCI
-H12";"1D
-TUT
-G22";"2DEF
-SCI
-H11";"2DEF
-SCI
-H11";"8C
-CHEM
-A11";;;;;"
-
-";"
-
-";"
-
-";"1D
-TUT
-G22";;"3C
-SCI
-A15";"3C
-SCI
-A15";;C;"2ABC
-SCI
-G12";"2ABC
-SCI
-G12";"
-
-";"4m
-Físicos 2
-F21";"4m
-Físicos 2
-F21";"1D
-TUT
-G22";"1D
-CHEM
-G22";"8C
-CHEM
-A11";"8C
-CHEM
-A11";"4m
-Físicos 2
-C12";"4m
-Físicos 2
-C12";"3F
-SCI
-C13";"3F
-SCI
-H12";"
-
-";"2DEF
-SCI
-H11";"2DEF
-SCI
-H11";
-" CCA
-28";"1F
-TUT
-G23";"3m A2
-1BIO
-F12";"3m A2
-1BIO
-F12";"4m
-Físicos 2
-F12";;;;;"
-
-";"1C
-BIO
-H21";"1C
-BIO
-H21";"1F
-TUT
-G23";"3m A2
-1BIO
-F12";"3m A2
-1BIO
-F12";"2m A2
-1BIO
-F11";"2m A2
-1BIO
-F11";;"4m
-Físicos 2
-F12";;"1F
-TUT
-G23";"
+F22";"
 
 ";"
 
 ";"1F
-TUT
-G23";;;"3m A2
-1BIO
-F12";"2m A2
-1BIO
-F11";"2m A2
-1BIO
-F11";"4m
-Físicos 2
-F12";"4m
-Físicos 2
-F12";;"1F
-BIO
-G23";"1F
-BIO
-G23";"1F
-TUT
-G23";"1C
-BIO
-H21";;"
+CHEM
+F21";"
 
-";"2m A2
-1BIO
-F11";"2m A2
-1BIO
-F11";"3m A2
-1BIO
-F12";"3m A2
-1BIO
+";"
+
+";"
+
+";"
+
+";"2E
+CHEM
+G24";"7E
+CHEM
+F21";"7E
+CHEM
+F21";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"2C
+CHEM
+F22";"2C
+CHEM
+F22";"
+
+";"
+
+";"1A
+CHEM
+F22";"8F
+CHEM
+G24";"8F
+CHEM
+G24";"
+
+";"2C
+CHEM
+F21";"8C
+CHEM
+F21";"8C
+CHEM
+F21";"2E
+CHEM
+G13";"2E
+CHEM
+G13";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"1F
+CHEM
+F22";"1F
+CHEM
+F22";"1A
+CHEM
+G24";"1A
+CHEM
+G24";"
+
+";"
+
+";"7A
+CHEM
+F21";"7A
+CHEM
+F21";"
+
+"
+ ;RAG;"8th
+TUT D
+";"8D
+CHEM
+F22";"8D
+CHEM
+F22";"3m
+1CHEM A
+F21";"4m
+1CHEM A
+F21";"4m
+1CHEM A
+F21";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"8th
+TUT D
+";"3m
+1CHEM A
+F21";"3m
+1CHEM A
+F21";"4m
+1CHEM A
+F21";"
+
+";"1D
+CHEM
+G12";"
+
+";"
+
+";"8th
+TUT D
+";"
+
+";"
+
+";"8th
+TUT D
+";"4m
+1CHEM A
+F21";"4m
+1CHEM A
+F21";"
+
+";"3m
+1CHEM A
+F21";"3m
+1CHEM A
+F21";"
+
+";"
+
+";"1B
+CHEM
+F21";"2A
+CHEM
+F21";"2A
+CHEM
+F21";"8th
+TUT D
+";"
+
+";"
+
+";"
+
+";"3m
+1CHEM A
+F21";"3m
+1CHEM A
+F21";"2F
+CHEM
+F21";"2F
+CHEM
+F21";L;"4m
+1CHEM A
+F21";"4m
+1CHEM A
+F21";"8th
+TUT D
+";"2F
+CHEM
+F22";"
+
+";"
+
+";"
+
+";"1B
+CHEM
+F21";"1B
+CHEM
+F21";"2A
+CHEM
+F21";L;"1D
+CHEM
+F22";"1D
+CHEM
+F22"
+ ;XMU;"8th
+TUT A
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"2D
+CHEM
+G24";"
+
+";"8th
+TUT A
+";"4D
+SCI 2
+G24";"4D
+SCI 2
+G24";"
+
+";"4A
+SCI 2
+G24";"4A
+SCI 2
+G24";"2B
+CHEM
+G24";L;"8th
+TUT A
+";"
+
+";"
+
+";"8th
+TUT A
+";"3E
+SCI 2
+G24";"3E
+SCI 2
+G24";"
+
+";"4A
+SCI 2
+G24";"4A
+SCI 2
+G24";"4D
+SCI 2
+G24";"4D
+SCI 2
+G24";L;"3B
+SCI 2
+G13";"3B
+SCI 2
+G13";"8th
+TUT A
+";"
+
+";"3E
+SCI 2
+G24";"3E
+SCI 2
+G24";"8E
+CHEM
+G24";"8E
+CHEM
+G24";"
+
+";"
+
+";"
+
+";"2D
+CHEM
+G24";"2D
+CHEM
+G24";"8th
+TUT A
+";"
+
+";"3C
+SCI 3
+G24";"3C
+SCI 3
+G24";"
+
+";"
+
+";"2B
+CHEM
+G24";"2B
+CHEM
+G24";L;"8A
+CHEM
+G24";"8A
+CHEM
+G24"
+ ;CCA;"
+
+";"
+
+";"
+
+";"3m
+1BIO A
+F22";"4m
+1BIO A
+F11";"4m
+1BIO A
+F11";"
+
+";"
+
+";"
+
+";"2F
+BIO
 F12";"
 
-";"4m
-Químicos
+";"
+
+";"3m
+1BIO A
+F12";"3m
+1BIO A
 F12";"4m
-Químicos
+1BIO A
 F12";"1F
-TUT
-G23";"1F
 BIO
-G23";;"2m A2
-1BIO
-F11";"4m
-Químicos
+F12";"1F
+BIO
+F12";"2C
+BIO
+F12";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"4m
+1BIO A
 F12";"4m
-Químicos
-F12";;;"
+1BIO A
+F12";"
+
+";"3m
+1BIO A
+F12";"3m
+1BIO A
+F12";"
 
 ";"
 
 ";"
 
-";
-" CKR
-26";"7B
-TUT
-A26";;"8C
+";"2F
 BIO
-A11";"8A
+F12";"2F
 BIO
-A17";"1E
-BIO
-H22";;;;"
+F12";"
 
-";"2m setA
-2BIO
-F11";"2m setA
-2BIO
-F11";"7B
-TUT
-A26";;;;"1B
-BIO
-G21";"1B
-BIO
-G21";"
+";"
 
-";;"7B
-TUT
-A26";"8C
-BIO
-A11";"8C
-BIO
-A11";"7B
-TUT
-A26";"8A
-BIO
-A17";"8A
-BIO
-A17";;"8B
-BIO
-A16";"8B
-BIO
-A16";;;"
+";"
 
-";"2m A2
-2BIO
-F11";"2m A2
-2BIO
-F11";"7B
-TUT
-A26";"2m A2
-2BIO
-F11";"7B
+";"
+
+";"3m
+1BIO A
+F12";"3m
+1BIO A
+F12";"1A
 BIO
-A26";"7B
+F12";L;"1F
 BIO
-A26";"8B
+F12";"4m
+1BIO A
+F12";"4m
+1BIO A
+F12";"
+
+";"1A
 BIO
-A16";"7F
+F21";"1A
 BIO
-A24";"7F
+F21";"
+
+";"
+
+";"
+
+";"2C
 BIO
-A24";;"
+F12";"2C
+BIO
+F12";L;"
+
+";"
+
+"
+ ;CKR;"
+
+";"
+
+";"
+
+";"1B
+BIO
+G24";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"7F
+BIO
+F22";"7F
+BIO
+F22";"3m
+2BIO A
+F11";"3m
+2BIO A
+F11";"1C
+BIO
+F21";"
+
+";"
+
+";"7A
+BIO
+F11";"7A
+BIO
+F11";"
+
+";"2E
+BIO
+F11";"2E
+BIO
+F11";"3m
+2BIO A
+F11";"
+
+";"8C
+BIO
+F11";"8C
+BIO
+F11";"
+
+";"
+
+";"2B
+BIO
+F11";"2B
+BIO
+F11";"
+
+";"8A
+BIO
+F11";"8A
+BIO
+F11";"
+
+";"
+
+";"
+
+";"3m
+2BIO A
+F11";"3m
+2BIO A
+F11";L;"1B
+BIO
+F11";"1B
+BIO
+F11";"
+
+";"1C
+BIO
+F12";"1C
+BIO
+F12";"2B
+BIO
+F12";"3m
+2BIO A
+F12";"3m
+2BIO A
+F12";"
+
+";"
+
+";"
+
+";"2E
+BIO
+F12";"
+
+"
+ ;FGR;"7th
+TUT E
+";"
+
+";"8B
+BIO
+F11";"8B
+BIO
+F11";"8E
+BIO
+G11";"8E
+BIO
+G11";"
+
+";"
+
+";"
+
+";"1D
+BIO
+F11";"1D
+BIO
+F11";"7th
+TUT E
+";"7E
+BIO
+F11";"7E
+BIO
+F11";"2A
+BIO
+F11";"
+
+";"
+
+";"4m
+2BIO A
+F11";L;"7th
+TUT E
+";"
+
+";"
+
+";"7th
+TUT E
+";"2D
+BIO
+G11";"
+
+";"1D
+BIO
+F12";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"4m
+2BIO A
+G12";"4m
+2BIO A
+G12";"7th
+TUT E
+";"
+
+";"4m
+2BIO A
+F12";"4m
+2BIO A
+F12";"2D
+BIO
+F11";"2D
+BIO
+F11";"
+
+";"
 
 ";"1E
 BIO
-H22";"1E
-BIO
-H22";"7B
-TUT
-A26";;;"
-
-";"2m A2
-2BIO
-F11";"2m A2
-2BIO
-F11";"
-
-";;"1B
-BIO
-G21";"
-
-";"
-
-";
-" FGR
-27";"
-
-";"1D
-BIO
-G22";"1D
-BIO
-G22";"4m
-Físicos 1
-F11";"7E
-BIO
-A23";"7E
-BIO
-A23";"3m A2
-2BIO
-F11";"3m A2
-2BIO
 F11";"
 
 ";"
 
-";"1A
-BIO
-G24";"
+";"7th
+TUT E
+";"
 
-";;"8E
+";"1E
 BIO
-A13";"8E
+F11";"1E
 BIO
-A13";;"3m A2
-2BIO
+F11";"7B
+BIO
+F11";"7B
+BIO
 F11";"4m
-Físicos 1
-F11";;"
-
-";"
-
-";"
-
-";"
-
-";"
-
-";"1A 
-BIO
-G24";"1A
-BIO
-G24";"7A
-BIO
-A25";"7A
-BIO
-A25";"4m
-Físicos 1
+2BIO A
 F11";"4m
-Físicos 1
-F11";"
-
-";"
-
-";"1D
+2BIO A
+F11";L;"2A
 BIO
-G22";"
-
-";;;"
+F11";"2A
+BIO
+F11"
+ ;LGR;"7th
+TUT C
+";"8F
+BIO
+F12";"8F
+BIO
+F12";"
 
 ";"8D
 BIO
-A12";"8D
+F12";"8D
 BIO
-A12";"
-
-";;"
-
-";"3m A2
-2BIO
-F11";"3m A2
-2BIO
-F11";"
-
-";"3m A2
-2BIO
-F11";"3m A2
-2BIO
-F11";"8D
-BIO
-A12";"
-
-";;;"
-
-";"8E
-BIO
-A13";"
+F12";"
 
 ";"
 
-";
-" LGR
-27";"7D
-TUT
-A22";;;"8F
-BIO
-A14";"3E
-SCI
-B3";"3E
-SCI
-B3";"2ABC
-SCI
-G14";"2ABC
-SCI
-G14";"
+";"
 
-";"7C
-BIO
-A21";"7C
-BIO
-A21";"7D
-TUT
-A22";"4m
-Biólogos
-H23";"4m
-Biólogos
-H23";;;;;;"7D
-TUT
-A22";"3B
-SCI
-B1";"3B
-SCI
-B1";"7D
-TUT
-A22";"2DEF
-SCI
-G11";"2DEF
-SCI
+";"
+
+";"
+
+";"7th
+TUT C
+";"4F
+SCI 1
+G11";"4F
+SCI 1
 G11";"
 
-";;"8F
+";"4C
+SCI 1
+G11";"4C
+SCI 1
+G11";"
+
+";"
+
+";"7th
+TUT C
+";"7C
 BIO
-A14";"8F
+F12";"7C
 BIO
-A14";;"
+F12";"7th
+TUT C
+";"3D
+SCI 1
+F22";"3D
+SCI 1
+F22";"
+
+";"4C
+SCI 1
+B2";"4C
+SCI 1
+B2";"4F
+SCI 1
+F12";"4F
+SCI 1
+F12";L;"3A
+SCI 1
+L25";"3A
+SCI 1
+L25";"7th
+TUT C
+";"
+
+";"3D
+SCI 1
+G12";"3D
+SCI 1
+G12";"
 
 ";"7D
 BIO
-A22";"7D
+L25";"7D
 BIO
-A22";"7D
-TUT
-A22";;"3B
-SCI
-B1";"3B
-SCI
-B1";"4m
-Biólogos
+L25";"
+
+";"
+
+";"
+
+";"
+
+";"7th
+TUT C
+";"
+
+";"3A
+SCI 1
+L25";"3A
+SCI 1
+L25";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+"
+ ;MAG;"
+
+";"
+
+";"
+
+";"1C
+PHY
 H23";"4m
-Biólogos
-H23";"2ABC
-SCI
-G14";"2ABC
-SCI
-G14";"
+1PHY A
+H22";"4m
+1PHY A
+H22";"
 
 ";"
 
 ";"
 
-";"7D
-TUT
-A22";;;"
-
-";;;"3E
-SCI
-B3";"3E
-SCI
-B3";"
-
-";"2DEF set1
-SCI
-G11";"2DEF set1
-SCI
-G11";
-" MAG
-26";"
-
-";"3m A2
-1PHY
-Libr.";"3m A2
-1PHY
-Libr.";"
-
-";;;"
+";"
 
 ";"
 
 ";"
 
-";"2m A2
-2PHY
-H24";"2m A2
-2PHY
+";"1C
+PHY
+H24";"1C
+PHY
+H24";"4m
+1PHY A
+H24";"3m
+2PHY A
+H24";"3m
+2PHY A
 H24";"
 
-";"3m A2
-1PHY
-Libr.";"3m A2
-1PHY
-Libr.";C;"
+";"
 
-";"1A
-CHEM
-G24";"1A
-CHEM
-G24";;"
+";"
 
-";"7A
-PHY
-A25";"7A
-PHY
-A25";"
+";"
 
-";;;"3m A2
-1PHY
-Libr.";"8C
-PHY
-A11";"8C
-PHY
-A11";;;"
+";"
 
-";"2m A2
-2PHY
-H24";"2m A2
-2PHY
+";"
+
+";"4m
+1PHY A
+H24";"4m
+1PHY A
+H24";"3m
+2PHY A
+H24";"2A
+PHY
+H24";"2A
+PHY
 H24";"
 
-";"2m A2
-2PHY
-H24";"8C
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"3m
+2PHY A
+G24";"3m
+2PHY A
+G24";L;"4m
+1PHY A
+H22";"4m
+1PHY A
+H22";"
+
+";"8A
 PHY
-A11";C;"1A
+H24";"8A
 PHY
-G24";"1A
+H24";"
+
+";"3m
+2PHY A
+H24";"3m
+2PHY A
+H24";"2A
 PHY
-G24";"3m A2
-1PHY
-Libr.";"3m A2
-1PHY
-Libr.";"
+H24";"
+
+";"
+
+";"
+
+";"
+
+"
+ ;MTO;"1m
+TUT B
+";"
+
+";"
+
+";"
+
+";"2B
+PHY
+H23";"
+
+";"
+
+";"
+
+";"1E
+CHEM
+F22";"1E
+CHEM
+F22";"
+
+";"1m
+TUT B
+";"1B
+PHY
+H22";"
+
+";"
+
+";"2E
+PHY
+H22";"2E
+PHY
+H22";"1E
+PHY
+H22";L;"1m
+TUT B
+";"7B
+PHY
+H22";"7B
+PHY
+H22";"1m
+TUT B
+";"3F
+SCI 3
+H22";"3F
+SCI 3
+H22";"
+
+";"8E
+PHY
+H22";"8E
+PHY
+H22";"
+
+";"
+
+";"7E
+PHY
+H22";"7E
+PHY
+H22";"
+
+";"1m
+TUT B
+";"
+
+";"3F
+SCI 3
+F21";"3F
+SCI 3
+F21";"8B
+PHY
+H23";"8B
+PHY
+H23";"
+
+";"
+
+";"
+
+";"2B
+PHY
+H23";"2B
+PHY
+H23";"1m
+TUT B
+";"1B
+PHY
+H23";"1B
+PHY
+H23";"
+
+";"
 
 ";"1B
 CHEM
-G21";"1B
+F21";"1B
 CHEM
-G21";"
+F21";L;"1E
+PHY
+H23";"1E
+PHY
+H23";"2E
+PHY
+H23"
+ ;NRE;"
 
 ";"
 
-";;;"2m A2
-2PHY
-H24";"2m A2
-2PHY
-H24";C;;"1A
+";"
+
+";"
+
+";"2C
 PHY
+H24";"2C
+PHY
+H24";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"1A
+PHY
+H23";"1A
+PHY
+H23";"
+
+";"4B
+SCI 3
+H23";"4B
+SCI 3
+H23";"1D
+PHY
+H23";"
+
+";"
+
+";"7D
+PHY
+H23";"7D
+PHY
+H23";"
+
+";"7A
+PHY
+G12";"7A
+PHY
+G12";"
+
+";"4B
+SCI 3
+B1";"4B
+SCI 3
+B1";"2C
+PHY
+H24";"
+
+";"
+
+";"2D
+PHY
+H24";"2D
+PHY
+H24";"
+
+";"
+
+";"1D
+PHY
+H22";"1D
+PHY
+H22";"
+
+";"8D
+PHY
+H22";"8D
+PHY
+H22";L;"1A
+PHY
+H22";"
+
+";"
+
+";"
+
+";"
+
+";"1F
+CHEM
+F22";"1F
+CHEM
+F22";"
+
+";"1C
+CHEM
+F22";"1C
+CHEM
+F22";"
+
+";"
+
+";"2D
+PHY
+H24";"
+
+"
+ ;POR;"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"1F
+PHY
+H24";"7F
+PHY
+H24";"7F
+PHY
+H24";"
+
+";"4E
+SCI 3
+G22";"4E
+SCI 3
+G22";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"
+
+";"2F
+PHY
+H23";"7C
+PHY
+H23";"7C
+PHY
+H23";"8F
+PHY
+H23";"8F
+PHY
+H23";"4E
+SCI 3
+H23";"4E
+SCI 3
+H23";L;"3C
+SCI 3
+H23";"3C
+SCI 3
+H23";"
+
+";"
+
+";"1F
+PHY
+H24";"1F
+PHY
+H24";"8C
+PHY
+H24";"8C
+PHY
+H24";"
+
+";"
+
+";"
+
+";"2F
+PHY
+H24";"2F
+PHY
+H24";"
+
+";"
+
+";"3C
+SCI 3
+H22";"3C
+SCI 3
+H22";"1A
+CHEM
+G24";"1A
+CHEM
 G24";"
 
 ";"
 
-";
-" MTO
-28";"8B
-TUT
-A16";"1E
-CHEM
-H22";"1E
-CHEM
-H22";;"3D
-SCI
-C22";"3D
-SCI
-C22";C;"
-
 ";"
-
-";"1B
-PHY
-G21";"1B
-PHY
-G21";"8B
-TUT
-A16";"4m
-Físicos 2
-C12";"4m
-Físicos 2
-C12";C;"1E
-PHY
-H22";"1E
-PHY
-H22";"
-
-";;"8B
-TUT
-A16";"
-
-";"
-
-";"8B
-TUT
-A16";"7E
-PHY
-A23";"7E
-PHY
-A23";"8B
-PHY
-A16";;;"8E
-PHY
-A13";;"
-
-";"
-
-";"
-
-";"8B
-TUT
-A16";"1B
-PHY
-G21";;"
-
-";"4m
-Físicos 2
-C12";"4m
-Físicos 2
-C12";C;;"
-
-";"4m
-Biólogos
-L22";"4m
-Biólogos
-L22";"8B
-TUT
-A16";"1E
-PHY
-H22";"8B
-PHY
-A16";"8B
-PHY
-A16";"4m
-Biólogos
-L22";"4m
-Biólogos
-L22";"3D
-SCI
-C22";"3D
-SCI
-C22";"
-
-";"8E
-PHY
-A13";"8E
-PHY
-A13";
-" NRE
-27";"
-
-";;;"4m
-Químicos
-L24";"1D
-PHY
-G22";;"
-
-";C;"
-
-";"
-
-";"
-
-";"
-
-";C;"8D
-PHY
-A12";"8D
-PHY
-A12";"1F
-CHEM
-G23";"1F
-CHEM
-G23";"4m
-Químicos
-L24";;"
-
-";"3A
-SCI
-B2";"3A
-SCI
-B2";"
-
-";"2DEF
-SCI
-C21";"2DEF
-SCI
-C21";"8A
-PHY
-A17";"7B
-PHY
-A26";"7B
-PHY
-A26";"4m
-Químicos
-L24";"4m
-Químicos
-L24";"
-
-";"
-
-";"
-
-";"
-
-";;"3A
-SCI
-B2";"3A
-SCI
-B2";C;"
-
-";"
-
-";;"
 
 ";"1D
-PHY
-G22";"1D
-PHY
-G22";"
-
-";"8A
-PHY
-A17";"8A
-PHY
-A17";;;"7D
-PHY
-A22";"7D
-PHY
-A22";;"8D
-PHY
-A12";"2DEF
-SCI
-C21";"2DEF
-SCI
-C21";
-" POR
-25";"7A
-TUT
-A25";"1F
-PHY
-G23";"1F
-PHY
-G23";"
-
-";"7C
-PHY
-A21";"7C
-PHY
-A21";"2ABC
-SCI
-G13";"2ABC
-SCI
-G13";"
-
-";"
-
-";"
-
-";"7A
-TUT
-A25";"4m
-Físicos 1
-L24";"4m
-Físicos 1
-L24";"1C
-PHY
-H21";"1D
 CHEM
-G22";"1D
+F22";"1D
 CHEM
-G22";"
-
-";;"7A
-TUT
-A25";"
-
-";"
-
-";"7A
-TUT
-A25";;"1C
-PHY
-H21";"1C
-PHY
-H21";"
-
-";;;C;"
-
-";"
-
-";"
-
-";"7A
-TUT
-A25";"8F
-PHY
-A14";;"
-
-";"4m
-Físicos 1
-H23";"4m
-Físicos 1
-H23";"2ABC
-SCI
-G13";"2ABC
-SCI
-G13";"
-
-";"1C
-CHEM
-H21";"1C
-CHEM
-H21";"7A
-TUT
-A25";"
-
-";;;"1F
-PHY
-G23";"7F
-PHY
-A24";"7F
-PHY
-A24";;"8F
-PHY
-A14";"8F
-PHY
-A14";"
-
-";
-
+F22"
 `
 export default TT
