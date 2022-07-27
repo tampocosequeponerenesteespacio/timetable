@@ -19,9 +19,9 @@ const whatPeriod = (date) => {
     const hour = new Date(date).toLocaleTimeString()
     
 
-    if ( isLess( hour,'8:00') ) { return 1 }
-    else if ( isLess( hour,'8:45') ) { return 2 }
-    else if ( isLess( hour,'9:30') ) { return 3 }
+    if ( isLess( hour,'8:05') ) { return 1 }
+    else if ( isLess( hour,'8:50') ) { return 2 }
+    else if ( isLess( hour,'9:35') ) { return 3 }
     else if ( isLess( hour,'10:15') ) { return 4 }
     else if ( isLess( hour,'10:40') ) { return 'B' }
     else if ( isLess( hour,'11:25') ) { return 5 }
@@ -38,9 +38,9 @@ export const rawPeriod = (date) => {
     const hour = new Date(date).toLocaleTimeString()
     
 
-    if ( isLess( hour,'8:00') ) { return 0 }
-    else if ( isLess( hour,'8:45') ) { return 1 }
-    else if ( isLess( hour,'9:30') ) { return 2 }
+    if ( isLess( hour,'8:05') ) { return 0 }
+    else if ( isLess( hour,'8:50') ) { return 1 }
+    else if ( isLess( hour,'9:35') ) { return 2 }
     else if ( isLess( hour,'10:15') ) { return 3 }
     else if ( isLess( hour,'10:40') ) { return 4 }
     else if ( isLess( hour,'11:25') ) { return 5 }
