@@ -1,5 +1,6 @@
 import { rawPeriod } from "../helpers/period"
 import Teacher from "./Teacher"
+import { v1 as uuid } from 'uuid';
 
 
 const Header = ({date}) => {
@@ -8,9 +9,9 @@ const Header = ({date}) => {
     return (
       arr.map( (n, i) => {
         if ( period === i-1 ) {
-          return <td style={{fontWeight:'bold'}} className='highlight' key={Math.random()}>{n}</td>
+          return <td style={{fontWeight:'bold'}} className='highlight' key={uuid()}>{n}</td>
         } else {
-          return <td style={{fontWeight:'bold'}} key={Math.random()}>{n}</td>
+          return <td style={{fontWeight:'bold'}} key={uuid()}>{n}</td>
         }
       })
     )  
@@ -30,8 +31,8 @@ const Timetable = ({date, teachers}) => {
                 </tr>
                 {teachers.map( (t) => {            
                     return (
-                        <tr key={t[0]+'tr'}>
-                        <td key={t[0]+'td'}>{t[0].replace(/"/g,"")}</td>
+                        <tr key={uuid()}>
+                        <td key={uuid()}>{t[0].replace(/"/g,"")}</td>
                         <Teacher teacher={t} date={date} />
                         </tr>
                     )

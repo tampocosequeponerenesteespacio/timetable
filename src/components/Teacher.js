@@ -1,4 +1,5 @@
 import { rawPeriod } from "../helpers/period"
+import { v1 as uuid } from 'uuid';
 
 const Teacher = ({date, teacher}) => {
     
@@ -16,9 +17,9 @@ const Teacher = ({date, teacher}) => {
             const block = b.replace(/"/g,"")
 
             if (i === period) {
-                return <td key={b+i} className='highlight'>{block}</td>
+                return <td key={uuid()} className='highlight'>{block}</td>
             } else {
-                return <td key={b+i}>{block}</td>
+                return <td key={uuid()}>{block}</td>
             }
         })
 
